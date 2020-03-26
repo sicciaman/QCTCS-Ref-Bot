@@ -1,0 +1,21 @@
+{
+  "name": "qctcsreferralbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "mongodb": "^3.3.5",
+    "nodemon": "^2.0.2",
+    "telegraf": "^3.34.1",
+    "telegraf-ratelimit": "^2.0.0",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
